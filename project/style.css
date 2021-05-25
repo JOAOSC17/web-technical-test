@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .95rem;
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+}
+header button{
+    padding: .5rem 2rem;
+    outline: none;
+    background-color: white;
+    color: #47525e;
+   border: .12rem solid #47525e;
+   cursor: pointer;
+}
+header button:nth-child(1){
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5em;
+}
+header button:nth-child(2){
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius:.5rem;
+}
+header button:focus{
+    color: white;
+    background-color: #47525e;
+    border:none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+main section{
+    background-color: #f2f2f2;
+    width: 20rem;
+    height: 25rem;
+}
+.img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e0e6ed;
+    width: 20rem;
+    height: 12rem;    
+}
+.desc{
+    padding: 1rem;
+}
+.desc h4{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.desc p{
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .8rem;
+}
+.buttons button{
+    padding: .5rem .8rem;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.buttons button:nth-child(1){
+    color: #47525e;
+    border: .12rem solid #47525e;
+}
+.buttons button:nth-child(2){
+    color: white;
+    background-color: #47525e;
+    border:none;
+}
