@@ -36,12 +36,14 @@ header button:focus{
 main{
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
 main section{
     background-color: #f2f2f2;
     width: 20rem;
-    height: 25rem;
+    height: 30rem;
+    margin-top: 1rem;
 }
 .img{
     background-position: center;
@@ -58,8 +60,6 @@ main section{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
-}
-.desc p{
 }
 .buttons{
     display: flex;
